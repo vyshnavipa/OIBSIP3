@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="convert.css">
+    <script src="convert.js"></script>
+</head>
+<body>
+<div id="Temp">
+<br>
+<h1>Temperature Converter</h1>
+<form method="POST" action="">
+    <table>
+        <tr>
+            <td><label for="n1">Degrees</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="i1" id="i1"></td>
+        </tr>
+        <tr>
+            <td><label for="n2">Type</label></td>
+        </tr>
+        <tr>
+            <td>
+                <select name="i2" id="i2">
+                    <option value=""></option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celsius">Celsius</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="n3">Result</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="i3" id="i3"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Reset" name="reset"  id="reset" onclick="f2()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Convert" name="convert" id="convert" onclick="f1()"></td>
+        </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>
